@@ -1,0 +1,253 @@
+{
+  "version": 1,
+  "about": "Katalog DGLinux programa za Centar aplikacija. Isti fajl (catalog.json) ide u javni pacman repozitorijum [dglinux]; Centar ga preuzima sa adrese repozitorijuma (Server iz pacman.conf), a ovaj služi dok repozitorijum ne postoji ili nema interneta. Paketi i opisi su predlog.",
+  "apps": [
+    {
+      "pkg": "dg-govindamp",
+      "id": "org.dglinux.govindamp",
+      "icon": "deepin-music",
+      "cats": [
+        "media"
+      ],
+      "featured": true,
+      "name": {
+        "sr": "Govindamp",
+        "en": "Govindamp"
+      },
+      "summary": {
+        "sr": "Plejer muzike sa plejlistom, radiom i audio CD-om",
+        "en": "Music player with playlists, radio and audio CD"
+      },
+      "desc": {
+        "sr": "Pušta muziku sa računara, internet radio i audio diskove. Plejlista se pamti, omoti albuma stižu sami, a vizuelizator prati muziku. Ekvilajzer, normalizacija jačine i tasteri za muziku na tastaturi.",
+        "en": "Plays music from your computer, internet radio and audio CDs. The playlist is remembered, album covers are fetched automatically and the visualizer follows the music. Equalizer, volume normalization and keyboard media keys."
+      }
+    },
+    {
+      "pkg": "dg-player",
+      "id": "org.dglinux.player",
+      "icon": "dgplayer",
+      "cats": [
+        "media"
+      ],
+      "featured": true,
+      "name": {
+        "sr": "DG Video Player",
+        "en": "DG Video Player"
+      },
+      "summary": {
+        "sr": "Video plejer sa titlovima i nastavkom gledanja",
+        "en": "Video player with subtitles and resume"
+      },
+      "desc": {
+        "sr": "Pušta sve uobičajene video formate uz hardversko dekodiranje. Titlove nalazi i preuzima sam, pamti gde si stao i nudi izbor zvučnog zapisa.",
+        "en": "Plays all common video formats with hardware decoding. Finds and downloads subtitles, remembers where you stopped and lets you pick the audio track."
+      }
+    },
+    {
+      "pkg": "dg-burner",
+      "id": "org.dglinux.burner",
+      "icon": "media-optical",
+      "cats": [
+        "media",
+        "system"
+      ],
+      "featured": true,
+      "name": {
+        "sr": "DG Rezač",
+        "en": "DG Burner"
+      },
+      "summary": {
+        "sr": "Narezivanje CD, DVD i Blu-ray diskova",
+        "en": "Burn CDs, DVDs and Blu-ray discs"
+      },
+      "desc": {
+        "sr": "Prevuci fajlove i nareži disk, uz proveru posle narezivanja. Briše prepisive diskove i javlja kad je disk spreman.",
+        "en": "Drag files in and burn a disc, with verification afterwards. Erases rewritable discs and tells you when the disc is ready."
+      }
+    },
+    {
+      "pkg": "dg-launcher",
+      "id": "dglauncher",
+      "icon": "deepin-game-center",
+      "cats": [
+        "games"
+      ],
+      "featured": true,
+      "name": {
+        "sr": "DG Games centar",
+        "en": "DG Games Center"
+      },
+      "summary": {
+        "sr": "Windows igre sa diska, ISO-a ili instalera",
+        "en": "Windows games from discs, ISO files or installers"
+      },
+      "desc": {
+        "sr": "Instalira Windows igre preko Protona: sa ISO-a, foldera ili setup.exe, uz zamenu diskova. Biblioteka sa slikama igara, vremenom igranja i podešavanjima po igri.",
+        "en": "Installs Windows games with Proton from ISO files, folders or setup.exe, including disc swapping. A library with game art, play time and per-game settings."
+      }
+    },
+    {
+      "pkg": "dg-image",
+      "id": "org.dglinux.image",
+      "icon": "deepin-image-viewer",
+      "cats": [
+        "graphics"
+      ],
+      "name": {
+        "sr": "DG Slike",
+        "en": "DG Photos"
+      },
+      "summary": {
+        "sr": "Pregled, rotiranje i isecanje slika",
+        "en": "View, rotate and crop pictures"
+      },
+      "desc": {
+        "sr": "Brzo otvara slike, prikazuje podatke iz fotoaparata i mapu, rotira bez gubitka kvaliteta, iseca i postavlja sliku kao pozadinu.",
+        "en": "Opens pictures quickly, shows camera details and location, rotates without quality loss, crops and sets a picture as wallpaper."
+      }
+    },
+    {
+      "pkg": "dg-pdf",
+      "id": "org.dglinux.pdf",
+      "icon": "deepin-reader",
+      "cats": [
+        "office"
+      ],
+      "name": {
+        "sr": "DG PDF",
+        "en": "DG PDF"
+      },
+      "summary": {
+        "sr": "Čitač PDF dokumenata",
+        "en": "PDF document reader"
+      },
+      "desc": {
+        "sr": "Stranice sa sličicama, pretraga teksta, uvećanje, zaštićeni dokumenti i štampa.",
+        "en": "Page thumbnails, text search, zoom, password-protected documents and printing."
+      }
+    },
+    {
+      "pkg": "dg-text",
+      "id": "org.dglinux.text",
+      "icon": "deepin-editor",
+      "cats": [
+        "office",
+        "system"
+      ],
+      "name": {
+        "sr": "DG Tekst",
+        "en": "DG Text"
+      },
+      "summary": {
+        "sr": "Uređivač teksta sa karticama",
+        "en": "Tabbed text editor"
+      },
+      "desc": {
+        "sr": "Kartice, bojenje koda i Markdown-a, pretraga i zamena, svetla i tamna tema.",
+        "en": "Tabs, code and Markdown highlighting, find and replace, light and dark theme."
+      }
+    },
+    {
+      "pkg": "dg-terminal",
+      "id": "org.dglinux.terminal",
+      "icon": "deepin-terminal",
+      "cats": [
+        "system"
+      ],
+      "name": {
+        "sr": "DG Terminal",
+        "en": "DG Terminal"
+      },
+      "summary": {
+        "sr": "Terminal sa karticama i podelom prozora",
+        "en": "Terminal with tabs and split view"
+      },
+      "desc": {
+        "sr": "Kartice, podela prozora, pretraga, providna pozadina i kopiranje kao u Windows Terminalu.",
+        "en": "Tabs, split view, search, transparent background and Windows Terminal style copy and paste."
+      }
+    },
+    {
+      "pkg": "dg-calc",
+      "id": "org.dglinux.calc",
+      "icon": "deepin-calculator",
+      "cats": [
+        "system",
+        "office"
+      ],
+      "name": {
+        "sr": "Kalkulator",
+        "en": "Calculator"
+      },
+      "summary": {
+        "sr": "Osnovni i naučni kalkulator sa istorijom",
+        "en": "Basic and scientific calculator with history"
+      },
+      "desc": {
+        "sr": "Osnovni i naučni režim, istorija računa, procenti kao u Windowsu, unos sa tastature.",
+        "en": "Basic and scientific modes, calculation history, Windows style percentages and keyboard input."
+      }
+    },
+    {
+      "pkg": "dg-monitor",
+      "id": "org.dglinux.monitor",
+      "icon": "deepin-system-monitor",
+      "cats": [
+        "system"
+      ],
+      "name": {
+        "sr": "Sistemski monitor",
+        "en": "System Monitor"
+      },
+      "summary": {
+        "sr": "Programi, performanse i servisi",
+        "en": "Apps, performance and services"
+      },
+      "desc": {
+        "sr": "Koliko troše programi, grafikoni procesora, memorije, diska i mreže, programi pri prijavi i servisi.",
+        "en": "What apps use, graphs for processor, memory, disk and network, startup apps and services."
+      }
+    },
+    {
+      "pkg": "dg-disks",
+      "id": "org.dglinux.disks",
+      "icon": "deepin-diskmanager",
+      "cats": [
+        "system"
+      ],
+      "name": {
+        "sr": "Diskovi",
+        "en": "Disks"
+      },
+      "summary": {
+        "sr": "Particije, formatiranje i zdravlje diskova",
+        "en": "Partitions, formatting and disk health"
+      },
+      "desc": {
+        "sr": "Pravljenje, brisanje i promena veličine particija, formatiranje USB diskova i stanje diska (SMART). Sistemske particije su zaključane.",
+        "en": "Create, delete and resize partitions, format USB drives and check disk health (SMART). System partitions are locked."
+      }
+    },
+    {
+      "pkg": "dg-devices",
+      "id": "org.dglinux.devices",
+      "icon": "deepin-devicemanager",
+      "cats": [
+        "system"
+      ],
+      "name": {
+        "sr": "Uređaji",
+        "en": "Devices"
+      },
+      "summary": {
+        "sr": "Hardver, drajveri i problemi",
+        "en": "Hardware, drivers and problems"
+      },
+      "desc": {
+        "sr": "Spisak hardvera kao u Device Manager-u, drajver i firmver svakog uređaja i rešenje problema jednim klikom.",
+        "en": "A hardware list like Device Manager, the driver and firmware of each device and one-click fixes."
+      }
+    }
+  ]
+}
