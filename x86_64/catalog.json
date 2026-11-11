@@ -128,6 +128,26 @@
       }
     },
     {
+      "pkg": "dg-mdreader",
+      "id": "org.dglinux.mdreader",
+      "icon": "text-markdown",
+      "cats": [
+        "office"
+      ],
+      "name": {
+        "sr": "DG MD čitač",
+        "en": "DG MD Reader"
+      },
+      "summary": {
+        "sr": "Čitač Markdown dokumenata",
+        "en": "Markdown document reader"
+      },
+      "desc": {
+        "sr": "Prikazuje .md fajlove kao uređene dokumente: tabele, kod, fusnote i liste zadataka, sadržaj sa strane, pretraga i štampa. Prati izmene fajla dok ga menjaš u drugom programu.",
+        "en": "Shows .md files as formatted documents: tables, code, footnotes and task lists, an outline sidebar, search and printing. Follows the file while you edit it in another program."
+      }
+    },
+    {
       "pkg": "dg-text",
       "id": "org.dglinux.text",
       "icon": "deepin-editor",
