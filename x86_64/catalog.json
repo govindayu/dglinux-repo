@@ -45,6 +45,39 @@
       }
     },
     {
+      "pkg": "ai-studio",
+      "id": "aistudio",
+      "icon": "https://govindayu.github.io/dglinux-repo/x86_64/icons/aistudio.png",
+      "cats": [
+        "dev",
+        "office"
+      ],
+      "featured": true,
+      "name": {
+        "sr": "AI Studio",
+        "en": "AI Studio"
+      },
+      "summary": {
+        "sr": "AI agenti sa DeepSeek, Xiaomi MiMo i lokalnim modelima",
+        "en": "AI agents with DeepSeek, Xiaomi MiMo and local models"
+      },
+      "desc": {
+        "sr": "Razgovor i agent koji radi za tebe: pokreće komande, čita i menja fajlove u izabranom folderu, otvara stranice u pregledaču, čita PDF i Word dokumente i prepoznaje tekst sa slika. Radi sa DeepSeek i Xiaomi MiMo modelima (tvoj API ključ, čuva se šifrovan u privesku lozinki) i sa lokalnim modelima preko llama.cpp-a na grafičkoj karti, bez interneta.",
+        "en": "Chat and an agent that works for you: runs commands, reads and edits files in the folder you choose, opens pages in a browser, reads PDF and Word documents and recognizes text in pictures. Works with DeepSeek and Xiaomi MiMo models (your API key, stored encrypted in the keyring) and with local models through llama.cpp on the graphics card, offline."
+      },
+      "keys": [
+        "ai",
+        "agent",
+        "deepseek",
+        "mimo",
+        "xiaomi",
+        "llm",
+        "chat",
+        "llama",
+        "gguf"
+      ]
+    },
+    {
       "pkg": "dg-burner",
       "id": "org.dglinux.burner",
       "icon": "media-optical",
