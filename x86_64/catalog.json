@@ -141,6 +141,26 @@
       }
     },
     {
+      "pkg": "dg-screenshot",
+      "id": "org.dglinux.screenshot",
+      "icon": "deepin-screen-recorder",
+      "cats": [
+        "graphics"
+      ],
+      "name": {
+        "sr": "DG Snimač ekrana",
+        "en": "DG Snap"
+      },
+      "summary": {
+        "sr": "Snimak oblasti, prozora ili celog ekrana, sa crtanjem",
+        "en": "Capture an area, a window or the whole screen, with drawing"
+      },
+      "desc": {
+        "sr": "Win+Shift+S ili Print zamrzne ekran i nudi izbor oblasti, prozora ili celog ekrana. Snimak se čuva u Slike › Snimci ekrana i kopira u klipbord; pre čuvanja možeš da dodaš strelice, okvire, tekst, marker, zamućenje i brojeve koraka. Snima i video ekrana (H.264 ili H.265) sa zvukom sistema i mikrofonom.",
+        "en": "Win+Shift+S or Print freezes the screen and lets you pick an area, a window or the whole screen. The screenshot is saved to Pictures › Screenshots and copied to the clipboard; before saving you can add arrows, boxes, text, highlights, blur and step numbers. It also records screen video (H.264 or H.265) with system sound and microphone."
+      }
+    },
+    {
       "pkg": "dg-pdf",
       "id": "org.dglinux.pdf",
       "icon": "deepin-reader",
